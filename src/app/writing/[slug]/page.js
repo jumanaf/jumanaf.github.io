@@ -25,8 +25,8 @@ export default function Post({ params }) {
 
   return (
     <article>
-      <Link href="/writing" className="text-sm text-muted transition-colors hover:text-accent">
-        ← Writing
+      <Link href="/" className="text-sm text-muted transition-colors hover:text-accent">
+        ← Back
       </Link>
 
       <header className="mt-6">

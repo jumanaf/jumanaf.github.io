@@ -27,9 +27,6 @@ export const socials = [
 ] as const;
 
 
-export const experienceSummary =
-  "Most recently I've been working at Kiwi Charge, building out the infrastructure for autonomous EV charging robots. Before this, I was at Dyno Therapeutics, where I scaled data science pipelines across millions of datapoints to help create gene therapy vectors. I studied bioengineering at the University of Washington, and during my undergrad, researched T-cell memory and immunity.";
-
 export const getInTouch = [
   "Building the robot — perception, embedded, or the data pipelines behind it. Especially if you've shipped something that had to survive weather.",
   'EV charging at scale: fleets, depots, dealerships, anywhere charging is the bottleneck rather than a feature.',

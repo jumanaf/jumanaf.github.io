@@ -24,7 +24,7 @@ export default function Footer() {
           })}
         </div>
         <p className="text-xs text-muted">
-          © {'2026'} Jumana Fathima · built with Next.js
+          © {'2026'} Jumana Fathima
         </p>
       </div>
     </footer>

@@ -1,11 +1,8 @@
 import './globals.css';
 import { body, display } from './fonts';
 import Providers from './components/providers';
-import Nav from './components/nav';
 import Footer from './components/footer';
-import ThemeToggle from './components/theme-toggle';
-import { profile } from '@/data/content';
-import Link from 'next/link';
+import SiteHeader from './components/site-header';
 
 export const metadata = {
   title: 'Jumana Fathima',
@@ -24,23 +21,7 @@ export default function RootLayout({ children }) {
       <body className="font-sans">
         <Providers>
           <div className="mx-auto flex min-h-screen max-w-content flex-col px-5 py-10 sm:px-6 sm:py-16">
-            <header className="mb-12">
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <Link
-                    href="/"
-                    className="font-sans text-4xl font-extrabold tracking-tight text-fg transition-colors hover:text-accent sm:text-5xl"
-                  >
-                    {profile.name}
-                  </Link>
-                  <p className="mt-1 text-sm text-muted">{profile.tagline}</p>
-                </div>
-                <ThemeToggle />
-              </div>
-              <div className="mt-6">
-                <Nav />
-              </div>
-            </header>
+            <SiteHeader />
 
             <main className="flex-1 animate-fade-up">{children}</main>
 
