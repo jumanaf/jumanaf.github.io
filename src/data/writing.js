@@ -2,18 +2,11 @@
 // wired to slugs in src/app/writing/[slug]/page.js. Keep newest first.
 export const posts = [
   {
-    slug: 'the-story-is-the-analysis',
-    title: 'Post title goes here',
-    date: '2026-07-23',
-    readingTime: '1 min read',
-    excerpt: 'A one-line summary of this post — edit me in src/data/writing.js.',
-  },
-  {
-    slug: 'making-things-by-hand',
-    title: 'Another post title',
-    date: '2026-07-23',
-    readingTime: '1 min read',
-    excerpt: 'A one-line summary of this post — edit me in src/data/writing.js.',
+    slug: 'rigorous-storytelling',
+    title: 'Rigorous storytelling',
+    date: '2026-10-15',
+    readingTime: '2 min read',
+    excerpt: '',
   },
 ];
 

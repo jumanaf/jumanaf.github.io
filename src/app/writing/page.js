@@ -28,7 +28,9 @@ export default function Writing() {
                   {formatDate(post.date)} · {post.readingTime}
                 </span>
               </div>
-              <p className="mt-2 text-sm leading-relaxed text-muted">{post.excerpt}</p>
+              {post.excerpt && (
+                <p className="mt-2 text-sm leading-relaxed text-muted">{post.excerpt}</p>
+              )}
             </Link>
           </li>
         ))}

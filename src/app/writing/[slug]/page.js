@@ -2,12 +2,10 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { posts, getPost, formatDate } from '@/data/writing';
 
-import TheStoryIsTheAnalysis from '@/content/writing/the-story-is-the-analysis.mdx';
-import MakingThingsByHand from '@/content/writing/making-things-by-hand.mdx';
+import RigorousStorytelling from '@/content/writing/rigorous-storytelling.mdx';
 
 const bodies = {
-  'the-story-is-the-analysis': TheStoryIsTheAnalysis,
-  'making-things-by-hand': MakingThingsByHand,
+  'rigorous-storytelling': RigorousStorytelling,
 };
 
 export function generateStaticParams() {
