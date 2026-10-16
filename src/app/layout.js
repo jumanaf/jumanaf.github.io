@@ -6,11 +6,8 @@ import SiteHeader from './components/site-header';
 
 export const metadata = {
   title: 'Jumana Fathima',
-  description:
-    'Jumana Fathima — data scientist & bookworm in Seattle. Writing, experience, and things I’m curious about.',
   openGraph: {
     title: 'Jumana Fathima',
-    description: 'Data scientist & bookworm in Seattle.',
     type: 'website',
   },
 };
