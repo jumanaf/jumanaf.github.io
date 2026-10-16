@@ -29,7 +29,7 @@ export default function About() {
           hard problems, particularly at their seams: where hardware meets software, where a model
           meets messy data, where research meets something that has to ship fast.
         </p>
-        <p>In my free time, I enjoy reading, scrapbooking, and drinking ample amounts of coffee.</p>
+        <p>In my free time, I enjoy reading, scrapbooking, and drinking copious amounts of coffee.</p>
       </section>
 
       <section>
